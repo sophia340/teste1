@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site Teste</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Este é o meu primeiro site interativo.</p>
+    <button onclick="mostrarFoto()">Clique aqui para ver a foto!</button>
+
+    <!-- Aqui é onde a foto vai aparecer -->
+    <img id="minhaFoto" src="" alt="Minha Foto" style="display:none; width:300px;">
+
+    <script>
+        function mostrarFoto() {
+            // Mostra a foto
+            document.getElementById('minhaFoto').style.display = 'block';
+            // Muda o fundo da página
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>  
